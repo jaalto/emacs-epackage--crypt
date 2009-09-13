@@ -1,0 +1,13 @@
+Package: crypt
+Homepage: http://freefriends.org/~karl/crypt++
+Upstream-Vcs-Url: http://cvs.xemacs.org/viewcvs.cgi/*checkout*/XEmacs/packages/xemacs-packages/os-utils/crypt.el?rev=HEAD&content-type=text/plain
+Upstream-Vcs-type: http
+Documentation-Url: http://www.emacswiki.org/emacs/CryptPlusPlus
+Description: Encryption support
+ Open and save encrypted files and buffers.It also supports many
+ encryption programs, like GPG, bcrypt, openssl RC4 etc. The encrypted
+ file is detected by group of magic characters at the beginning.
+ .
+ Originally known by name crypt++.el and
+ developed by Karl Berry. The current package
+ is being maintained in XEmacs CVS tree.
