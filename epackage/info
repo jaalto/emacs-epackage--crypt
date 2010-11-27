@@ -1,4 +1,5 @@
 Package: crypt
+Section: data
 License: GPL-2+
 Depends: emacs (>= 20) | xemacs (>= 20)
 Status: core package in XEmacs
