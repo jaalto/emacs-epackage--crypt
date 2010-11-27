@@ -1,5 +1,3 @@
-;; crypt.el
-
 (autoload 'crypt-build-encryption-alist         "crypt" "" nil)
 (autoload 'crypt-build-encoding-alist           "crypt" "" nil)
 (autoload 'crypt-rebuild-tables                 "crypt" "" t)
@@ -54,5 +52,4 @@
 (autoload 'crypt-insert-file                    "crypt" "" t)
 (autoload 'crypt-insert-file-contents           "crypt" "" nil)
 (autoload 'crypt-submit-report                  "crypt" "" t)
-
 (provide 'crypt-autoloads)
