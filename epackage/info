@@ -1,9 +1,9 @@
 Package: crypt
 License: GPL-2+
 Depends: emacs (>= 20) | xemacs (>= 20)
-Status:
-Email:
-Bugs:
+Status: core package in XEmacs
+Email: <xemacs-beta@xemacs.org>
+Bugs: <xemacs-beta@xemacs.org>
 Vcs-Type: http
 Vcs-Url: https://alioth.debian.org/scm/viewvc.php/*checkout*/XEmacs/packages/xemacs-packages/os-utils/crypt.el?revision=HEAD&root=xemacs
 Vcs-Browser: https://alioth.debian.org/scm/viewvc.php/XEmacs/packages/xemacs-packages/os-utils/?root=xemacs
@@ -17,4 +17,4 @@ Description: Encryption support
  file is detected by group of magic characters at the beginning.
  .
  Originally known by name crypt++.el and developed by Karl Berry. The
- current package is being maintained in XEmacs repository.
+ package is being maintained in XEmacs repository.
