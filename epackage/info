@@ -9,6 +9,7 @@ Email: <xemacs-beta@xemacs.org>
 Bugs:
 Vcs-Type: http
 Vcs-Url: https://alioth.debian.org/scm/viewvc.php/*checkout*/XEmacs/packages/xemacs-packages/os-utils/crypt.el?revision=HEAD&root=xemacs
+Vcs-Args: --output-document=crypt.el
 Vcs-Browser: https://alioth.debian.org/scm/viewvc.php/XEmacs/packages/xemacs-packages/os-utils/?root=xemacs
 Vcs-User:
 Vcs-Password:
