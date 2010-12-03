@@ -1,21 +1,27 @@
 Package: crypt
-Section: data
+Section: extensions
 License: GPL-2+
 Depends: emacs (>= 20) | xemacs (>= 20)
-Status: core-xemacs
+Status: core-xemacs stable
+Compat:
+Maintainer:
 Email: <xemacs-beta@xemacs.org>
-Bugs: <xemacs-beta@xemacs.org>
+Bugs:
 Vcs-Type: http
 Vcs-Url: https://alioth.debian.org/scm/viewvc.php/*checkout*/XEmacs/packages/xemacs-packages/os-utils/crypt.el?revision=HEAD&root=xemacs
 Vcs-Browser: https://alioth.debian.org/scm/viewvc.php/XEmacs/packages/xemacs-packages/os-utils/?root=xemacs
+Vcs-User:
+Vcs-Password:
 Homepage: https://alioth.debian.org/projects/xemacs
-X-Old-Homepgae: http://freefriends.org/~karl/crypt++
-X-Xemacs-Homepage: http://www.xemacs.org/Develop/hgaccess.html
 Wiki: http://www.emacswiki.org/emacs/CryptPlusPlus
+X-Upstream-Old-Homepage: http://freefriends.org/~karl/crypt++
+X-XEmacs-Vcs-Information: http://www.xemacs.org/Develop/hgaccess.html
 Description: Encryption support
- Open and save encrypted files and buffers.It also supports many
- encryption programs, like GPG, bcrypt, openssl RC4 etc. The encrypted
- file is detected by group of magic characters at the beginning.
- .
- Originally known by name crypt++.el and developed by Karl Berry. The
- package is being maintained in XEmacs repository.
+    Open and save encrypted files and buffers.It also supports many
+    encryption programs, like GPG, bcrypt, openssl RC4 etc. The
+    encrypted file is detected by group of magic characters at the
+    beginning.
+    .
+    Originally known by name crypt++.el and developed by Karl Berry.
+    The package is included in core XEmacs and being maintained in
+    XEmacs software repository.
