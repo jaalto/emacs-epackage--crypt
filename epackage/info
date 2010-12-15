@@ -17,6 +17,7 @@ Homepage: https://alioth.debian.org/projects/xemacs
 Wiki: http://www.emacswiki.org/emacs/CryptPlusPlus
 X-Upstream-Old-Homepage: http://freefriends.org/~karl/crypt++
 X-XEmacs-Vcs-Information: http://www.xemacs.org/Develop/hgaccess.html
+Commentary: crypt.el
 Description: encryption support
  Open and save encrypted files and buffers.It also supports many
  encryption programs, like GPG, bcrypt, openssl RC4 etc. The
