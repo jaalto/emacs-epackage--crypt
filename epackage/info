@@ -5,8 +5,9 @@ Depends: emacs (>= 20) | xemacs (>= 20)
 Status: core-xemacs stable
 Compat:
 Maintainer: Jari Aalto <jari.aalto@cante.net>
-Email: <xemacs-beta@xemacs.org>
 Bugs:
+Upstream: <xemacs-beta@xemacs.org>
+Upstream-Bugs:
 Vcs-Type: http
 Vcs-Url: https://alioth.debian.org/scm/viewvc.php/*checkout*/XEmacs/packages/xemacs-packages/os-utils/crypt.el?revision=HEAD&root=xemacs
 Vcs-Args: --output-document=crypt.el
