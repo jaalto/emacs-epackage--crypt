@@ -4,4 +4,4 @@
 (add-hook 'find-file-hooks  'crypt-find-file-hook)
 (add-hook 'write-file-hooks 'crypt-write-file-hook)
 
-(provide 'crypt-install)
+(provide 'crypt-epkg-install)
