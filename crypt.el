@@ -1399,6 +1399,7 @@ Derived from variable `crypt-encoding-alist' and function
         minor-mode-alist (append crypt-minor-mode-alist minor-mode-alist)))
 
 
+(put 'crypt-save-point 'edebug-form-spec '(body))
 (defmacro crypt-save-point (&rest body)
   ;; Save value of point, evaluate FORMS, and restore value of point.  If the
   ;; saved value of point is no longer valid go to (point-max).  This macro
@@ -2083,6 +2084,8 @@ decryption is done."
            decrypt)))
 
   (crypt-save-point
+
+   (crypt-encryption-type-set)
 
    ;; We define the PROGRAM as the encryption program or decryption program
    ;; listed for `crypt-encryption-type' of `crypt-encryption-alist.'  These
